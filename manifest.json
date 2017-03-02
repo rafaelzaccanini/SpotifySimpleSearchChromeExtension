@@ -1,0 +1,15 @@
+{
+  "name": "Spotify Simple Search",
+  "description": "Simple way to search and play albums, artists, tracks and playlists on Spotify.",
+  "version": "0.0.0.1",
+  "permissions": ["contextMenus"],
+  "background": {
+    "persistent": false,
+    "scripts": ["spotify-simple-search.js"]
+  },
+  "icons": {
+   "16": "app-spotify-icon-16.png",
+   "64": "app-spotify-icon-64.png"
+  },
+  "manifest_version": 2
+}
